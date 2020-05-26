@@ -1,0 +1,20 @@
+{
+  "name": "gmaps",
+  "version": "0.0.0",
+  "description": "Testing google maps API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET NODE_ENV=dev && node index.js"
+  },
+  "author": "wdejesus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^51.0.0",
+    "pug": "^2.0.4",
+    "sqlite3": "^4.2.0"
+  }
+}

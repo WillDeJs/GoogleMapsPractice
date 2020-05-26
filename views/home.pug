@@ -1,0 +1,32 @@
+html
+    head
+        title Testing Maps
+        style. 
+            /* Always set the map height explicitly to define the size of the div
+            * element that contains the map. */
+            #map {
+                height: 90%;
+                width: 100%;
+            }
+            /* Optional: Makes the sample page fill the window. */
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                text-align : center;
+            }
+    body
+        h1 My Locations
+        div(id='add')
+            form
+                label Name
+                input(type='text' id='nameinput')
+                label Address
+                input(type='text' id='addressinput')
+                input(type='submit', action='validateForm()' id)
+        div(id='map')
+        script(src='maps.js')
+        script(src=key defer='true' async='true')
+
